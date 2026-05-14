@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudSummary | AWS Women</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cloud<span>Summary</span></h1>
+        <p>Transformando documentações complexas em resumos simples com IA.</p>
+    </header>
+
+    <main class="container">
+        <section class="input-area">
+            <textarea id="texto-doc" placeholder="Cole aqui aquele texto técnico gigante da AWS..."></textarea>
+            <button id="btn-resumir" onclick="resumirComIA()">Resumir com AWS Bedrock</button>
+        </section>
+
+        <section id="resultado" class="output-area hidden">
+            <h3>Resumo Gerado:</h3>
+            <p id="texto-resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido para o Portfólio AWS Women 2026</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
